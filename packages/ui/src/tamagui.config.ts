@@ -64,10 +64,12 @@ export const config = createTamagui({
     dark: {
       ...themes.dark,
       background: themes.dark.pink4,
+      color: themes.light.backgroundStrong
     },
     light: {
       ...themes.light,
       background: themes.dark.pink4,
+      color: themes.light.backgroundStrong
     },
   },
   tokens,
